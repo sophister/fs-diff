@@ -9,13 +9,13 @@ const path = require('path');
 const readDir = require('../../lib/read_dir.js');
 
 
-let path = process.env.dir;
+let target = process.env.dir;
 
 
 async function main() {
-    console.log(`递归读取的目录为： ${path}`);
+    console.log(`递归读取的目录为： ${target}`);
     try {
-        let files = await readDir.getFiles(path);
+        let files = await readDir.getFiles(target);
         console.log(`所有文件列表：\n`);
         console.log(files.join('\n'));
     } catch (err) {
