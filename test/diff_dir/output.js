@@ -15,8 +15,8 @@ const outputPath = process.env.output_dir;
 async function main() {
     console.log(`旧的目录为: ${oldPath}\n新的目录为：${newPath}\n产出目录为：${outputPath}`);
     try {
-        await diffDir.diffDirResult(newPath, oldPath, outputPath);
-        console.log('end');
+        let result = await diffDir.diffDirResult(newPath, oldPath, outputPath);
+        console.log(result);
     } catch (err) {
         console.error(err);
     }
