@@ -21,5 +21,8 @@
     "bugs": {
         "url": "https://github.com/sophister/fs-diff/issues"
     },
-    "homepage": "https://github.com/sophister/fs-diff#readme"
+    "homepage": "https://github.com/sophister/fs-diff#readme",
+    "dependencies": {
+        "fs-extra": "^5.0.0"
+    }
 }
