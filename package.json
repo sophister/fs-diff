@@ -1,0 +1,22 @@
+{
+  "name": "fs-diff",
+  "version": "0.0.1",
+  "description": "fs diff for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophister/fs-diff.git"
+  },
+  "keywords": [
+    "node-fs-diff"
+  ],
+  "author": "Jess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sophister/fs-diff/issues"
+  },
+  "homepage": "https://github.com/sophister/fs-diff#readme"
+}
