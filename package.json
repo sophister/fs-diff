@@ -1,6 +1,6 @@
 {
     "name": "fs-diff",
-    "version": "0.1.3",
+    "version": "0.2.0",
     "description": "fs diff for node.js",
     "main": "index.js",
     "scripts": {
